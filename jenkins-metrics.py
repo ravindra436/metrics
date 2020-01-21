@@ -8,8 +8,8 @@
 import urllib, json, sys
 
 metrics = {}
-JENKINS_URL = "CHANGE IT"
-PLUGIN_KEY = "CHANGE IT"
+JENKINS_URL = "http://a59638eaefc8f11e99d8e0ac7f60df55-1872873982.eu-west-1.elb.amazonaws.com:8080/"
+PLUGIN_KEY = "fTjFtcC0YFBe_jKT1UUoaTUImNRQP1AqNwrOzeJZBvYm7v5idzZzswWmh5BP4Bpq"
 
 def denormalize(data, keyname):
     for d in data.keys():
